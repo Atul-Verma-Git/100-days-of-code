@@ -9,8 +9,9 @@ class Solution:
         output = [0,1]
         for _ in range(1,n):
             b = len(output)
+            c = 2**_
             for __ in reversed(range(b)):
-                output.append(2**(_) + output[__])
+                output.append(c + output[__])
         return output
             
         
