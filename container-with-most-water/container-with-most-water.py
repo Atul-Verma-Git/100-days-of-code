@@ -13,9 +13,7 @@ class Solution:
             else:
                 temp = area(i,j)
                 j -= 1
-            a = max(a, temp)
-            
-            
+            a = max(a, temp)  
         return a
             
             
